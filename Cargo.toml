@@ -1,0 +1,11 @@
+[package]
+name = "b-route"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "b-route"
+path = "main.rs"
+
+[dependencies]
+serialport = "4.2.0"
