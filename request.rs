@@ -1,3 +1,4 @@
+// make UART IF request
 pub fn make(command: &Vec<u8>, data: &Vec<u8>) -> Vec<u8> {
     let unique_code: Vec<u8> = vec![0xd0, 0xea, 0x83, 0xfc];
     let length: u16 = 4 + (data.len() as u16);

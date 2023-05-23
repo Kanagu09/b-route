@@ -1,3 +1,4 @@
+// serial communication with wi-sun module
 use std::time::Duration;
 use std::io::Error;
 use serialport::SerialPort;
