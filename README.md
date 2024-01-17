@@ -21,7 +21,13 @@ In the sample, you can get instantaneous power consumption data from the smart m
   - 12-character alphabet
   - example : `XXXXXXXXXXXX`
 
-1. Execute the program.
+2. Add permission to serial port.
+
+```sh
+chmod a+rw /dev/ttyUSB0 # example
+```
+
+3. Execute the program.
 
 ```sh
 cargo run
